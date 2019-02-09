@@ -1,13 +1,11 @@
   
   配置文件说明
   ====
-  
       spring.application.name=config-server
       server.port=8888
     
-    
-      spring.cloud.config.server.git.uri=https://github.com/yuhaibao324/my-config-center.git
-      spring.cloud.config.server.git.searchPaths=respo
+      spring.cloud.config.server.git.uri=https://github.com/yuhaibao324/my-config-center
+      spring.cloud.config.server.git.searchPaths=config-repo
       spring.cloud.config.label=master
       #spring.cloud.config.server.git.username=
       #spring.cloud.config.server.git.password=
